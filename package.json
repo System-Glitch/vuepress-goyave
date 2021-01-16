@@ -1,0 +1,33 @@
+{
+  "name": "vuepress-theme-goyave",
+  "version": "1.0.0",
+  "description": "Vuepresse theme for the Goyave documentation",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/System-Glitch/vuepress-theme-goyave.git"
+  },
+  "keywords": [
+    "vuepress",
+    "theme",
+    "goyave",
+    "dark",
+    "vue"
+  ],
+  "author": "Jérémy LAMBERT (System-Glitch)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/System-Glitch/vuepress-theme-goyave/issues"
+  },
+  "homepage": "https://github.com/System-Glitch/vuepress-theme-goyave#readme",
+  "devDependencies": {
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "@vuepress/plugin-back-to-top": "^1.8.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.18.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^7.4.1",
+    "prettier": "^2.2.1",
+    "vuepress-plugin-container": "^2.1.5"
+  }
+}
