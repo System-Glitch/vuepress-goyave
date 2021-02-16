@@ -14,9 +14,10 @@
     </template>
     <a
       class="become-backer"
-      href="https://github.com/sponsors/System-Glitch/"
+      :href="$themeConfig.becomeSponsorLink"
       rel="nofollow"
       target="_blank"
+      v-if="$themeConfig.becomeSponsorLink"
     >
       Become a Sponsor
     </a>

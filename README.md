@@ -24,6 +24,22 @@ module.exports = {
 }
 ```
 
+## Sponsor support
+
+You can provide a list of sponsors to `themeConfig` in `config.js`:
+```js
+becomeSponsorLink: "https://github.com/sponsors/System-Glitch/",
+sponsors: [
+    {
+        name: "Goyave",
+        img: "/goyave_banner.png",
+        url: "https://goyave.dev"
+    }
+]
+```
+
+The sponsors will appear at the top of the sidebar if this list is not empty. If the `becomeSponsorLink` is empty, the "Become a Sponsor" button will not appear.
+
 ## New containers
 
 ### Image in text (left)
