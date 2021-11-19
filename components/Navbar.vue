@@ -36,7 +36,7 @@
 </template>
 
 <script>
-import AlgoliaSearchBox from "@AlgoliaSearchBox"
+import AlgoliaSearchBox from "@parent-theme/components/AlgoliaSearchBox"
 import SearchBox from "@SearchBox"
 import SidebarButton from "@parent-theme/components/SidebarButton.vue"
 import NavLinks from "@parent-theme/components/NavLinks.vue"
